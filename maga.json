@@ -1,0 +1,47 @@
+{
+    "data": [
+        {
+            "text": "RT @LouDobbs: Hope Against Hate: @BobWoodson predicts low income Black Americans will rise up, speak out against the unrest and hate in our…",
+            "id": "1301282806358773763",
+            "author_id": "822517413732229120",
+            "created_at": "2020-09-02T22:16:12.000Z"
+        },
+        {
+            "text": "RT @LouDobbs: Powerless Pelosi: @CharlesHurt says Nancy Pelosi has lost her iron grip on the Dem party, and socialist AOC is now in charge.…",
+            "id": "1301282799870238720",
+            "author_id": "895187260030812160",
+            "created_at": "2020-09-02T22:16:10.000Z"
+        },
+        {
+            "text": "RT @tiamatinash: @realDonaldTrump Welcome to Persia sir\n#RestartMIGA #MAGA https://t.co/1oLW2DypfM",
+            "id": "1301282795348586496",
+            "author_id": "947059406587359232",
+            "created_at": "2020-09-02T22:16:09.000Z"
+        }
+    ],
+    "includes": {
+        "users": [
+            {
+                "id": "822517413732229120",
+                "name": "Lori\uD83C\uDF1F\uD83C\uDF1F\uD83C\uDF1F\uD83D\uDE4F\uD83C\uDDFA\uD83C\uDDF8",
+                "username": "1RealLori"
+            },
+            {
+                "id": "895187260030812160",
+                "name": "Hanna17Reese",
+                "username": "Hanna17Reese"
+            },
+            {
+                "id": "947059406587359232",
+                "name": "David Scott",
+                "username": "DavidSc12274097"
+            }
+        ]
+    },
+    "meta": {
+        "newest_id": "1301282806358773763",
+        "oldest_id": "1301282762431893508",
+        "result_count": 3,
+        "next_token": "b26v89c19zqg8o3fos5t0b5y5oz99al3rogm7dupzcqkd"
+    }
+}

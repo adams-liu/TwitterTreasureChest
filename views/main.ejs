@@ -1,0 +1,28 @@
+<%- include("header") -%>
+<div class="container-fluid">
+    <div class="row">
+        <div class="tweetSection col col-lg-8">
+
+            <!-- generating tweet boxes -->
+            <% tweets.forEach(function(tweet){ %>
+            
+                <div class="tweetBox" draggable="true">
+                    <blockquote class="twitter-tweet tw-align-center" >
+                        <p lang="en" dir="ltr" ><a 
+                                href="https://twitter.com/<%= tweet.username %>/status/<%= tweet.tweet_id %>?ref_src=twsrc%5Etfw"></a>
+                    </blockquote>
+                    <script async  src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+           
+            <% }); %>
+
+        </div>
+
+        <div class="boxSection col col-lg-4">
+            <div class="emptyBox" id="default"></div>
+            <br id="btnBreak"><button id="addButton" onclick="addBox()" type="button">Add</button>
+        </div>
+    </div>
+</div>
+
+<%- include("footer") -%>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/styles.css">
+    <title>TweetSorter 3000</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="tweetSection col col-lg-8">
+                <div class="emptyBox">
+                    <div class="filledBox" draggable="true" id="A"></div>
+                </div>
+                <div class="emptyBox">
+                    <div class="filledBox" draggable="true" id="B"></div>
+                </div>
+                    
+                <div class="emptyBox">
+                    <div class="filledBox" draggable="true" id="C"></div>
+                </div>
+                <div class="emptyBox"></div>
+                <div class="emptyBox"></div>
+            </div>
+            <div class="boxSection col col-lg-4">
+                <div class="emptyBox" id="default"></div>
+                <br id="btnBreak"><button id="addButton" onclick="addBox()" type="button">Add</button>
+            </div>
+        </div>
+
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Conceptual telepathy</p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1299512615001964544?ref_src=twsrc%5Etfw">August 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr"></p>&mdash;<a href="https://twitter.com/TwitterDev/status/1228393702244134912?ref_src=twsrc%5Etfw"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr"></p>&mdash;<a href="https://twitter.com/pal3_r1d3r/status/1301277618399064065?ref_src=twsrc%5Etfw"></a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
+    <script src="client.js"></script>
+</body>
+
+</html>
